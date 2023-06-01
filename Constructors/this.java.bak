@@ -1,0 +1,15 @@
+class Sample 
+{int a = 100;
+float s = 254.25f;
+	Sample(int a,float b)
+		{
+			System.out.println("Hello");
+			System.out.println(this.a+a+b);
+			System.out.println(this.s);
+		}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Sample f1 = new Sample(10,20.25f);
+	}
+}

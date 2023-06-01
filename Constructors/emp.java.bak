@@ -1,0 +1,25 @@
+class Employinfo
+{
+	int employid;
+	float employsal
+		Employinfo(int employid,float employsal)
+		{
+			this.employid=employid;
+			this.employsal=employsal;
+		}
+		void getemployinfo()
+			{
+				System.out.println("Employ id is"+employid);
+				System.out.println("Employ sal is"+employsal);
+			}
+}
+class OR 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}	Employinfo empl1 = new Employinfo(101,20000.5f);
+		empl1.getemployinfo();
+		Employinfo empl2 = new Employinfo(201,20000.5f);
+		empl2.getemployinfo();
+}

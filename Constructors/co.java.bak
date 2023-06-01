@@ -1,0 +1,37 @@
+class Demo4
+{int x = 5000;
+float y = 550.54f;
+	Demo4()
+		{
+			System.out.println("Inside Demo4");
+			System.out.println(x+y);
+		}
+}
+class Demo3
+{
+	Demo3(int r)
+		{
+			System.out.println("Inside Demo3");
+			Demo4 n = new Demo4();
+			System.out.println(n.y+r+t);
+		}
+}
+class Demo2
+{
+	Demo2(float o)
+		{
+			System.out.println("Inside Demo2");
+			Demo4 t = new Demo4();
+			System.out.println(t.x+o);
+		}
+}
+class Demo1
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		Demo4 d4 = new Demo4();
+		Demo3 d3 = new Demo3(600);
+		Demo2 d2 = new Demo2(65.25f);
+	}
+}

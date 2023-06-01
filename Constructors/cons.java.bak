@@ -1,0 +1,10 @@
+class Cons 
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello");
+		Cons d1 = new Cons();
+		System.out.println("Stop");
+	}
+}
