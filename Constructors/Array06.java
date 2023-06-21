@@ -1,0 +1,30 @@
+
+class Demo
+{
+	static int[] m1()
+		{
+			System.out.println("Inside m1 Method");
+			int[] a = {100,200,300};
+			return a;
+		}
+		void m2(String[] ss)
+			{
+			System.out.println("Inside m2 method");
+			for(String sss : ss)
+				{
+					System.out.println(sss);
+				}	
+			}
+	public static void main(String[] args) 
+	{
+		int[] aa = Demo.m1();
+		//System.out.println(aa);
+		for(int aaa : aa)
+			{
+				System.out.println(aaa);
+			}
+			String[] str = {"cyber","Success","Institute"};
+			Demo arr = new Demo();
+			arr.m2(str);
+	}
+}

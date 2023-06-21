@@ -1,0 +1,27 @@
+class Array07 
+{
+	public static void main(String[] args) 
+	{
+		Object[] obj = new Object[3];
+		obj[0] = new Stud(101, "Satish");
+		obj[1] = new Emp(102, "Santosh");
+		obj[2] = new Integer(1000);
+		for(Object oo : obj)
+			{
+			if(oo instanceof Stud){
+				Stud s = (Stud)oo;
+				System.out.println(s.studId+" "+s.studName);
+			}
+			else if(oo instanceof Emp)
+				{Emp e = (Emp)oo;
+			System.out.orintln(e.empId+" "+e.empName);
+					
+				}
+				else if (oo instanceof Integer)
+				{
+					Integer i = (Integer)oo;
+					System.out.println(i);
+				}
+			}
+	}
+}

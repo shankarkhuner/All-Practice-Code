@@ -1,0 +1,14 @@
+class Stud
+{
+	int studId;
+	int empId;
+	String studName;
+	String empName;
+	Stud(int studId,String studName)
+		Emp(int empId,String empName){
+		this.studId=studId;
+		this.empId=empId;
+		this.studName=studName;
+		this.empName=empName;
+	}
+}
